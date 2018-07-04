@@ -224,12 +224,11 @@
           <label for="psw">Password</label>
         </div>
         <div class="col-75">
-          <input type="password" name="e_pass" required="">
+          <input type="text" name="e_pass" required="">
         </div>
         </div>
   
         <div class="row">
-               <!-- <input type="submit" value="Submit"> -->
                <input type="submit" id="ms_add" name="register" value="REGISTER" style="font-weight: bold">
             </div>
   </form>
