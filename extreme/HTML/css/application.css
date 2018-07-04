@@ -1,0 +1,152 @@
+
+body {font-family: Poppins-Bold, sans-serif;}
+* {box-sizing: border-box}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.next {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+
+
+  width: 50%;
+  height: 50px;
+  border-radius: 20px;
+  background: #57b846;
+  padding: 0 25px;
+
+ 
+}
+
+.submit:hover {
+  background: #333333;
+}
+
+@media screen and (max-width: 300px) {
+   .signupbtn {
+       width: 50%;
+    }
+}
+
+
+label {
+    padding: 12px 18px 10px 0;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    background-color: #8E44AD;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    float: right;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+
+/*CONTAINER 1 & 2*/
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  
+}
+
+
+.wrap-overtime {
+  width: 1000px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 100px 33px 97px;
+}
