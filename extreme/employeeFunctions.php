@@ -23,7 +23,7 @@
         $query = "INSERT INTO addemployee (e_name, e_initial, e_lastName, e_bdate, e_cnum, e_email, e_address, e_dstart, e_pos, e_uname, e_pass) VALUES ('".$e_name."', '".$e_initial."', '".$e_lastName."', '".$e_bdate."', '".$e_cnum."', '".$e_email."', '".$e_address."', '".$e_dstart."', '".$e_pos."', '".$e_uname."', '".$e_pass."')";
         $result = mysqli_query($DBConnectToHost, $query);
         
-        header ('Location: employee_tab.php');
+        header ('Location: HR_EmployeeDetails.php');
     } 
 
     // Leave Details
@@ -42,7 +42,7 @@
         $result1 = mysqli_query($DBConnectToHost, $query1);
         // echo $query1;
         
-        header ('Location: leave_details.php');
+        header ('Location: LeaveDetails.php');
     }
 
     // Overtime Details
@@ -60,7 +60,7 @@
         $query2 = "INSERT INTO overtime (o_name, o_date, o_start, o_end, o_num, o_reason) VALUES ('".$o_name."', '".$o_date."', '".$o_start."', '".$o_end."', '".$o_num."', '".$o_reason."')";
         $result2 = mysqli_query($DBConnectToHost, $query2);
         
-        header ('Location: overtime.php');
+        header ('Location: Overtime.php');
     }
 
 
